@@ -1,0 +1,36 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: rgb(233, 219, 219);
+}
+
+
+.flex-container {
+    max-width: 1300px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    column-gap: 50px;
+}
+
+.flex-element-col {
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+}
+
+h3, p {
+    margin: 0;
+    padding: 20px;
+}
+
+.news {
+    min-width: 350px;
+    margin-bottom: 50px;
+    background-color: #fff;
+}
